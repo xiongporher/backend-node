@@ -5,7 +5,7 @@ import { login, register } from '../controller/auth.controller.js';
 
 const route = express.Router();
 
-// Welcome to Laos
+// Where are you from?
 route.post("/user/create", register);
 route.post("/login", login);
 
