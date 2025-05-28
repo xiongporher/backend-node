@@ -5,7 +5,7 @@ import { login, register } from '../controller/auth.controller.js';
 
 const route = express.Router();
 
-// Hello World
+// Hello World 2025!!
 route.post("/user/create", register);
 route.post("/login", login);
 
